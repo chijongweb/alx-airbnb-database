@@ -8,10 +8,10 @@ The objective of this report is to monitor and analyze query performance, identi
 
  1. Query Performance Monitoring
 To understand the efficiency of SQL queries, the following commands were used:
-`EXPLAIN ANALYZE` (PostgreSQL) – to view the execution plan and identify performance issues.
-`SHOW PROFILE` (MySQL) – to analyze resource consumption (CPU, I/O, etc.) for specific queries.
+EXPLAIN ANALYZE – to view the execution plan and identify performance issues.
+SHOW PROFILE  – to analyze resource consumption (CPU, I/O, etc.) for specific queries.
 
-Example 1: Analyze a frequently used query with `EXPLAIN ANALYZE`:
+Example 1: Analyze a frequently used query with EXPLAIN ANALYZE:
 sql
 EXPLAIN ANALYZE
 SELECT u.user_id, u.name, b.booking_id, p.property_name
