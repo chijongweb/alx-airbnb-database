@@ -1,3 +1,5 @@
+EXPLAIN ANALYZE
+SELECT * FROM bookings WHERE user_id = 1234;
 -- Indexes on User table
 CREATE UNIQUE INDEX idx_user_email ON users(email);
 
